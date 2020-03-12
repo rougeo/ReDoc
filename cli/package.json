@@ -11,7 +11,7 @@
     "chokidar": "^2.0.4",
     "handlebars": "^4.0.11",
     "isarray": "^2.0.4",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^1.0.0",
     "mobx": "^4.2.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
