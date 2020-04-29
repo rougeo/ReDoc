@@ -9,7 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "chokidar": "^2.0.4",
-    "handlebars": "^4.0.11",
+    "handlebars": "^4.6.0",
     "isarray": "^2.0.4",
     "mkdirp": "^0.5.1",
     "mobx": "^4.2.0",
