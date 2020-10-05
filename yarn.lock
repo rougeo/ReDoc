@@ -5764,6 +5764,13 @@ json-pointer@^0.6.0:
   dependencies:
     foreach "^2.0.4"
 
+json-pointer@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/json-pointer/-/json-pointer-0.6.1.tgz#3c6caa6ac139e2599f5a1659d39852154015054d"
+  integrity sha512-3OvjqKdCBvH41DLpV4iSt6v2XhZXV1bPB4OROuknvUXI7ZQNofieCPkmE26stEJ9zdQuvIxDHCuYhfgxFAAs+Q==
+  dependencies:
+    foreach "^2.0.4"
+
 json-schema-ref-parser@^6.0.1:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/json-schema-ref-parser/-/json-schema-ref-parser-6.0.2.tgz#c17bfed06fa7ff8f1ade36067d087b46f5465ef8"
