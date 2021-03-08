@@ -8,7 +8,7 @@
   "author": "Roman Hotsiy <gotsijroman@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "chokidar": "^2.0.4",
+    "chokidar": "^3.0.0",
     "handlebars": "^4.0.11",
     "isarray": "^2.0.4",
     "mkdirp": "^0.5.1",
