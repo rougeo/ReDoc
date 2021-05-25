@@ -746,6 +746,11 @@
   resolved "https://registry.yarnpkg.com/@types/json-pointer/-/json-pointer-1.0.30.tgz#b973c1f79b1f61d424b7d92b954e01e6c68ee66d"
   integrity sha1-uXPB95sfYdQkt9krlU4B5saO5m0=
 
+"@types/json-schema@^7.0.7":
+  version "7.0.7"
+  resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.7.tgz#98a993516c859eb0d5c4c8f098317a9ea68db9ad"
+  integrity sha512-cxWFQVseBm6O9Gbw1IWb8r6OS4OhSt3hPZLkFApLjM8TEXROBuQGLAH2i2gZpcXdLBIrpXuTDhH7Vbm1iXmNGA==
+
 "@types/lodash@4.14.87":
   version "4.14.87"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.87.tgz#55f92183b048c2c64402afe472f8333f4e319a6b"
@@ -5764,6 +5769,13 @@ json-pointer@^0.6.0:
   dependencies:
     foreach "^2.0.4"
 
+json-pointer@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/json-pointer/-/json-pointer-0.6.1.tgz#3c6caa6ac139e2599f5a1659d39852154015054d"
+  integrity sha512-3OvjqKdCBvH41DLpV4iSt6v2XhZXV1bPB4OROuknvUXI7ZQNofieCPkmE26stEJ9zdQuvIxDHCuYhfgxFAAs+Q==
+  dependencies:
+    foreach "^2.0.4"
+
 json-schema-ref-parser@^6.0.1:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/json-schema-ref-parser/-/json-schema-ref-parser-6.0.2.tgz#c17bfed06fa7ff8f1ade36067d087b46f5465ef8"
@@ -7090,12 +7102,13 @@ ono@^4.0.10:
   dependencies:
     format-util "^1.0.3"
 
-openapi-sampler@1.0.0-beta.14:
-  version "1.0.0-beta.14"
-  resolved "https://registry.yarnpkg.com/openapi-sampler/-/openapi-sampler-1.0.0-beta.14.tgz#e06807f33a9c0fab841e212f5fb90e7af4acf30c"
-  integrity sha512-NNmH9YAN5AaCE4w6MQXdCrmsOJJQTswHVSp075+h+iiG+OTonpZE8HzwocozovD2imx4lamkuxGLs4E4bO4Z+g==
+openapi-sampler@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/openapi-sampler/-/openapi-sampler-1.0.0.tgz#2cab1c3178c6988485a6f87062eb8b5001248c92"
+  integrity sha512-HysKj4ZuLk0RpZkopao5SIupUX8LMOTsEDTw9dSzcRv6BBW6Ep1IdbKwYsCrYM9tnw4VZtebR/N5sJHY6qqRew==
   dependencies:
-    json-pointer "^0.6.0"
+    "@types/json-schema" "^7.0.7"
+    json-pointer "^0.6.1"
 
 opn@^5.1.0:
   version "5.4.0"
